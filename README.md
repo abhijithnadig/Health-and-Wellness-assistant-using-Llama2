@@ -5,4 +5,9 @@ Required Python packages:
   faiss
   PyPDF2 (for PDF document loading)
   CSV Loaders
+
+Order of execution:
+  python ingest.py
+  chainlit run model.py -w
+
   
