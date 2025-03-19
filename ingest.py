@@ -15,7 +15,7 @@ def create_vector_db():
     csv_loader = DirectoryLoader(DATA_PATH, glob='*.csv', loader_cls=CSVLoader)
     csv_documents = csv_loader.load()
 
-    # Combine PDF and CSV documents
+    # Combine PDF and CSV document
     all_documents = pdf_documents + csv_documents
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=500,chunk_overlap=50)
     texts = text_splitter.split_documents(all_documents)
