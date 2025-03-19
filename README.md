@@ -6,7 +6,7 @@ Required Python packages:
   PyPDF2 (for PDF document loading)
   CSV Loaders
 
-Order of execution:
+Order of executions:
   python ingest.py
   chainlit run model.py -w
 
