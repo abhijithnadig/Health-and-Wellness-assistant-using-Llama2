@@ -11,7 +11,7 @@ DB_FAISS_PATH = 'vectorstore/db_faiss'
 custom_prompt_template = """Use the following pieces of information to answer the user's question.
 If you don't know the answer, just say that you don't know, don't try to make up an answer.
 Highlight the important information and sideheadings in bold font.
-If there is a lot of information, specify it in bullets.
+If there is a lot of information, specify it in bullet.
 
 Context: {context}
 Question: {question}
